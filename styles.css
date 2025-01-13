@@ -7,25 +7,13 @@ body {
 }
 
 header {
-    background: #333;
+    background: #1a1e24;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 section {
@@ -68,4 +56,9 @@ footer {
 
 .contact-buttons i {
     font-size: 30px; /* Adjust icon size */
+}
+
+.logo {
+    height: 10px; /* Adjust size as needed */
+    margin-left: 625px; /* Space between the logo and navigation */
 }
